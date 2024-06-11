@@ -1,7 +1,7 @@
 "use strict";
 
 import mongoose from "mongoose";
-import profile from "../configs/profile.config.js";
+import profile from "../config/profile.config.js";
 const { host, port, name } = profile.db;
 const connectionString = `mongodb://${host}:${port}/${name}`;
 

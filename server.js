@@ -2,7 +2,7 @@
 
 import http from "http";
 import app from "./src/app.js";
-import profile from "./src/configs/profile.config.js";
+import profile from "./src/config/profile.config.js";
 
 const { port } = profile.app;
 
